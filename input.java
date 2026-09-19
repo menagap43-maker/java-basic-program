@@ -1,6 +1,6 @@
 // Reversal of string
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args []){
     String s;
@@ -19,4 +19,29 @@ public class input{
         
     }
 
+}*/
+
+// fibonacci series
+
+import java.util.Scanner;
+public class input {
+    public static void main(String args[]){
+        int first=0,second=1,next,i,number;
+        System.out.println("enter the number of terms:");
+        Scanner scan =new Scanner(System.in);
+        number=scan.nextInt();
+        for(i=0;i<number;i++){
+            if(i<=1){
+                next=i;
+            }
+            else{
+                next=first+second;
+                first=second;
+                second=next;
+            }
+            System.out.print(" "+next);
+        }
+
+    }
+    
 }
