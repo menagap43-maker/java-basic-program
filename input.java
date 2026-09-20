@@ -48,7 +48,7 @@ public class input {
 
 //factorial
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args[]){
         int f=1,i,n;
@@ -60,6 +60,28 @@ public class input{
     }
     System.out.println("the factorial number " + f);
 }
-    }
+    }*/
 
+//palindrom
 
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+    int r,n,reverse=0,a;
+    System.out.println("enter the number");
+    Scanner scan =new Scanner(System.in);
+    n=scan.nextInt();
+    a=n;
+    while(n>0){
+        r=n%10;
+        reverse=reverse*10+r;
+        n=n/10;
+  }
+  if(a==reverse){
+    System.out.println("it is a palindrom number");
+  }
+  else{
+    System.out.println("it is  not palindrom number");
+  }
+}
+}
