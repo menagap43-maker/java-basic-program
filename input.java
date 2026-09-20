@@ -110,7 +110,7 @@ public class input{
 
 // amstrong number 153=(1)^3+(5)^3+(3)^3 =153
 
-public class input {
+/*public class input {
  public static void main(String[] args) {
     int n=153,r,sum=0,a=n;
     while(n>0) {
@@ -127,4 +127,17 @@ else{
 }
 }
     
+}*/
+
+// pattern
+
+public class input{
+    public static void main(String args[]){
+        for(int i=1;i<7;i++){
+            for(int j=1;j<=i;j++){
+                 System.out.print("* "+" ");
+        }
+        System.out.println("");
+    }
+}
 }
