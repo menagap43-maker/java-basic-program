@@ -64,7 +64,7 @@ public class input{
 
 //palindrom
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args[]){
     int r,n,reverse=0,a;
@@ -84,4 +84,26 @@ public class input{
     System.out.println("it is  not palindrom number");
   }
 }
+}*/
+
+//prime number
+
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        int i,a=0,n;
+        System.out.println("enter the number");
+        Scanner scan=new Scanner(System.in);
+        n=scan.nextInt();
+        for(i=2;i<=n-1;i++) {
+            if(n%2==0) {
+                a=a+1;
+            } }
+        if(a>0) {
+            System.out.println("no is not prime number");
+        }
+        else{
+            System.out.println("is a prime number");
+        }
+    }
 }
