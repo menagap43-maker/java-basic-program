@@ -131,7 +131,7 @@ else{
 
 // pattern
 
-public class input{
+/*public class input{
     public static void main(String args[]){
         for(int i=1;i<7;i++){
             for(int j=1;j<=i;j++){
@@ -140,4 +140,18 @@ public class input{
         System.out.println("");
     }
 }
+}*/
+
+// sorting of array
+
+import java.util.Arrays;
+public class input{
+    public static void main(String args[]){
+        int arr[]={11,23,34,45,56,67,78};
+        Arrays.sort(arr);
+        for(int i=0;i<=arr.length-1;i++) {
+            System.out.println(arr[i]);
+        }
+
+    }
 }
