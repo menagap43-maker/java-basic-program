@@ -88,7 +88,7 @@ public class input{
 
 //prime number
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input{
     public static void main(String args[]){
         int i,a=0,n;
@@ -106,4 +106,25 @@ public class input{
             System.out.println("is a prime number");
         }
     }
+}*/
+
+// amstrong number 153=(1)^3+(5)^3+(3)^3 =153
+
+public class input {
+ public static void main(String[] args) {
+    int n=153,r,sum=0,a=n;
+    while(n>0) {
+        r=n%10;
+        sum=sum+r*r*r;
+        n=n/10;
+    }
+if(a==sum){
+
+    System.out.println("it is a amstrong num");
+}
+else{
+    System.out.println("it is not amstrong num");
+}
+}
+    
 }
