@@ -23,7 +23,7 @@ public class input{
 
 // fibonacci series
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class input {
     public static void main(String args[]){
         int first=0,second=1,next,i,number;
@@ -44,4 +44,22 @@ public class input {
 
     }
     
+}*/
+
+//factorial
+
+import java.util.Scanner;
+public class input{
+    public static void main(String args[]){
+        int f=1,i,n;
+        System.out.println("enter the number");
+        Scanner scan=new Scanner(System.in);
+        n= scan.nextInt();
+        for( i=1;i<n+1;i++){
+            f=f*i;
+    }
+    System.out.println("the factorial number " + f);
 }
+    }
+
+
